@@ -2,27 +2,53 @@
 /*      TAG SELECTORS      */
 /***************************/
 
+
 body
 {
     font-family         : "Montserrat";
 }
 
+
 /***************************/
 /*      ID SELECTORS       */
 /***************************/
+
+
+#features
+{
+    font-family         : "Montserrat";
+    padding-bottom      : 7%;
+    padding-left        : 15%;
+    padding-right       : 15%;
+    padding-top         : 7%;
+    text-align          : center;
+}
 
 #navbar
 {
     background-color    : #ff4c68;
 }
 
-#features
+#press
 {
-    font-family         : "Montserrat";
-    padding-top         : 7%;
-    padding-right       : 15%;
+    background-color    : #ef8172;
+    text-align          : center;
+    padding-bottom      : 3%;
+}
+
+#pricing
+{
     padding-bottom      : 7%;
     padding-left        : 15%;
+    padding-right       : 15%;
+    padding-top         : 7%;
+    text-align          : center;
+}
+
+#testimonials
+{
+    background-color    : #ef8172;
+    color               : white;
     text-align          : center;
 }
 
@@ -31,65 +57,16 @@ body
     background-color    : #ff4c68;
 }
 
+
+
 /***************************/
 /*      CLASS SELECTORS    */
 /***************************/
 
+
 .container-fluid
 {
     padding: 3% 15%;
-}
-
-
-/* NAVBAR SECTION */
-
-
-.navbar-brand
-{
-    font-family         : "Ubuntu";
-    font-size           : 2.5rem;
-    font-weight         : bold;
-}
-
-.nav-item
-{
-    padding-left        : 1rem;
-    padding-right       : 1rem;
-}
-
-.nav-link
-{
-    font-family         : "Montserrat";
-    font-size           : 1.2rem;
-    font-weight         : 300;
-}
-
-
-/* TITLE SECTION */
-
-
-.description
-{
-    color               : white;
-    font-family         : "Montserrat";
-    font-size           : 3.5rem;
-    line-height         : 1.5;
-    font-weight         : 900;
-}
-
-.download-button
-{
-    margin-top          : 5%;
-    margin-right        : 5%;
-    margin-bottom       : 0%;
-}
-
-.iphone-mockup
-{
-    /* transform           : rotate(20deg); */
-    width               : 60%;
-    margin              : auto;    
-    display             : block;
 }
 
 
@@ -117,4 +94,141 @@ margin-bottom           : 1rem;
 .icon:hover
 {
     color               : #ff4c68;
+}
+
+
+/* NAVBAR SECTION */
+
+
+.navbar-brand
+{
+    font-family         : "Ubuntu";
+    font-size           : 2.5rem;
+    font-weight         : bold;
+}
+
+.nav-item
+{
+    padding-left        : 1rem;
+    padding-right       : 1rem;
+}
+
+.nav-link
+{
+    font-family         : "Montserrat";
+    font-size           : 1.2rem;
+    font-weight         : 300;
+}
+
+
+/* PRESS SECTION */
+
+
+.press-logo
+{
+    margin-bottom       : 50px;
+    margin-left         : 20px;
+    margin-right        : 20px;
+    margin-top          : 20px;
+    width               : 15%;
+}
+
+
+/* PRICING SECTION */
+
+
+.card-pricing
+{
+    font-size           : 3rem;
+    line-height         : 1.5;
+    font-weight         : 900;
+}
+
+.card-text
+{
+    color               :#8f8f8f;
+}
+
+.card-title
+{
+    font-size           : 1.5rem;
+    font-weight         : 900;
+}
+
+.pricing-col
+{
+    padding-bottom      : 3%;
+    padding-left        : 2%;
+    padding-right       : 2%;
+    padding-top         : 3%;
+}
+
+.pricing-text
+{
+    color               :#8f8f8f;
+    font-weight         : 400;
+    line-height         : 3;
+}
+
+.pricing-title
+{
+    font-family         : "Montserrat";
+    font-size           : 3rem;
+    font-weight         : 900;
+    line-height         : 1.5;
+}
+
+
+/* TESTIMONIALS SECTION */
+
+
+.carousel-item
+{
+    padding-bottom      : 7%;
+    padding-left        : 15%;
+    padding-right       : 15%;
+    padding-top         : 7%;
+}
+
+.testimonials-img
+{
+    width               : 10%;
+    border-radius       : 100%;
+    margin              : 20px;
+}
+
+.testimonials-text
+{
+    font-family         : "Montserrat";
+    font-size           : 2.5rem;
+    font-weight         : 900;
+    line-height         : 1.5;
+}
+
+
+/* TITLE SECTION */
+
+
+.description
+{
+    color               : white;
+    font-family         : "Montserrat";
+    font-size           : 3.5rem;
+    font-weight         : 900;
+    line-height         : 1.5;
+}
+
+.download-button
+{
+    margin-top          : 5%;
+    margin-right        : 5%;
+    margin-bottom       : 0%;
+}
+
+.iphone-mockup
+{
+    /* transform           : rotate(20deg); */
+    display             : block;
+    margin              : auto;    
+    width               : 60%;
 }
