@@ -1,11 +1,29 @@
+/***************************/
+/*      TAG SELECTORS      */
+/***************************/
+
 body
 {
     font-family         : "Montserrat";
 }
 
+/***************************/
+/*      ID SELECTORS       */
+/***************************/
+
 #navbar
 {
     background-color    : #ff4c68;
+}
+
+#features
+{
+    font-family         : "Montserrat";
+    padding-top         : 7%;
+    padding-right       : 15%;
+    padding-bottom      : 7%;
+    padding-left        : 15%;
+    text-align          : center;
 }
 
 #title
@@ -13,25 +31,18 @@ body
     background-color    : #ff4c68;
 }
 
+/***************************/
+/*      CLASS SELECTORS    */
+/***************************/
+
 .container-fluid
 {
     padding: 3% 15%;
 }
 
-.download-button
-{
-    margin-top          : 5%;
-    margin-right        : 5%;
-    margin-bottom       : 0%;
-}
 
-.iphone-mockup
-{
-    /* transform           : rotate(20deg); */
-    width               : 60%;
-    margin              : auto;    
-    display             : block;
-}
+/* NAVBAR SECTION */
+
 
 .navbar-brand
 {
@@ -53,11 +64,57 @@ body
     font-weight         : 300;
 }
 
-.title-h1
+
+/* TITLE SECTION */
+
+
+.description
 {
     color               : white;
     font-family         : "Montserrat";
     font-size           : 3.5rem;
     line-height         : 1.5;
     font-weight         : 900;
+}
+
+.download-button
+{
+    margin-top          : 5%;
+    margin-right        : 5%;
+    margin-bottom       : 0%;
+}
+
+.iphone-mockup
+{
+    /* transform           : rotate(20deg); */
+    width               : 60%;
+    margin              : auto;    
+    display             : block;
+}
+
+
+/* FEATURES SECTION */
+
+
+.features-text
+{
+    color               :#8f8f8f;
+    padding             : 5%;
+}
+
+.features-title
+{
+    font-size           : 1.5rem;
+    font-weight         : bold;
+}
+
+.icon
+{
+    color               : #ef8172;
+margin-bottom           : 1rem;
+}
+
+.icon:hover
+{
+    color               : #ff4c68;
 }
