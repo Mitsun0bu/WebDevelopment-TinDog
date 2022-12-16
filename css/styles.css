@@ -16,11 +16,13 @@ body
 
 #features
 {
+    background-color    : white;
     font-family         : "Montserrat";
     padding-bottom      : 7%;
     padding-left        : 15%;
     padding-right       : 15%;
     padding-top         : 7%;
+    position            : relative;
     text-align          : center;
 }
 
@@ -55,6 +57,7 @@ body
 #title
 {
     background-color    : #ff4c68;
+    z-index             : -1;
 }
 
 
@@ -66,7 +69,10 @@ body
 
 .container-fluid
 {
-    padding: 3% 15%;
+    padding-bottom  : 5%;
+    padding-left    : 15%;
+    padding-right   : 15%;
+    padding-top     : 3%;
 }
 
 
@@ -227,8 +233,52 @@ margin-bottom           : 1rem;
 
 .iphone-mockup
 {
-    /* transform           : rotate(20deg); */
+    margin              : auto;
     display             : block;
-    margin              : auto;    
-    width               : 60%;
+    width               : 40%;
+}
+
+.iphone-mockup-container
+{
+    display         : flex;
+    justify-content : center;
+}
+
+@media (max-width: 1285px)
+{
+    .description
+    {
+        color               : white;
+        font-family         : "Montserrat";
+        font-size           : 2.8rem;
+        font-weight         : 900;
+        line-height         : 1.5;
+    }
+}
+
+@media (max-width: 1079px)
+{
+    #title
+    {
+        text-align: center;
+    }
+
+    .description
+    {
+        color               : white;
+        font-family         : "Montserrat";
+        font-size           : 2rem;
+        font-weight         : 900;
+        line-height         : 1.5;
+    }
+}
+
+@media (max-width: 992px)
+{
+    .iphone-mockup
+    {
+
+        padding-top         : 3%;
+        width               : 35%;
+    }
 }
