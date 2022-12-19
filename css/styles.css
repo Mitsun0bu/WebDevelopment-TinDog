@@ -1,307 +1,121 @@
-/***************************/
-/*      TAG SELECTORS      */
-/***************************/
+/*==================================*/
+/*          ALL SECTIONS            */
+/*==================================*/
 
+/* TAG SELECTOR */
 
 body
 {
-    font-family         : "Montserrat";
+    font-family      : "Montserrat";
 }
 
+/* CLASS SELECTORS */
 
-/***************************/
-/*      ID SELECTORS       */
-/***************************/
-
-#cta
+.blank-section
 {
-    background-color    : #ff4c68;
-    padding-bottom      : 7%;
-    padding-left        : 15%;
-    padding-right       : 15%;
-    padding-top         : 7%;
-    text-align: center;
+    background-color : white;
+    text-align       : center;
 }
 
-#features
+.colored-section
 {
-    background-color    : white;
-    font-family         : "Montserrat";
-    padding-bottom      : 7%;
-    padding-left        : 15%;
-    padding-right       : 15%;
-    padding-top         : 7%;
-    position            : relative;
-    text-align          : center;
+    background-color : #ff4c68;
+    color            : white;
+    text-align       : center;
 }
-
-#footer
-{
-    background-color    : white;
-    color               : #8f8f8f;
-    font-family         : "Montserrat";
-    padding-bottom      : 7%;
-    padding-left        : 15%;
-    padding-right       : 15%;
-    padding-top         : 7%;
-    text-align          : center;
-}
-
-#navbar
-{
-    background-color    : #ff4c68;
-}
-
-#press
-{
-    background-color    : #ef8172;
-    text-align          : center;
-    padding-bottom      : 3%;
-}
-
-#pricing
-{
-    padding-bottom      : 7%;
-    padding-left        : 15%;
-    padding-right       : 15%;
-    padding-top         : 7%;
-    text-align          : center;
-}
-
-#testimonials
-{
-    background-color    : #ef8172;
-    color               : white;
-    text-align          : center;
-}
-
-#title
-{
-    background-color    : #ff4c68;
-    z-index             : -1;
-}
-
-
-
-/***************************/
-/*      CLASS SELECTORS    */
-/***************************/
-
 
 .container-fluid
 {
-    padding-bottom  : 5%;
-    padding-left    : 15%;
-    padding-right   : 15%;
-    padding-top     : 3%;
+    padding-bottom   : 7%;
+    padding-left     : 15%;
+    padding-right    : 15%;
+    padding-top      : 7%;
 }
 
+/*==================================*/
+/*          NAVBAR SECTION          */
+/*==================================*/
 
-/* CTA SECTION */
+/* ID SELECTOR */
 
-.social-icon
+#navbar .container-fluid 
 {
-    color               : #22252A;
-    margin-left       : 0.5rem;
-    margin-right       : 0.5rem;
-    margin-top       : 1rem;
-    margin-bottom       : 1rem;
+    padding-bottom   : 3%;;
+    padding-left     : 15%;
+    padding-right    : 15%;
+    padding-top      : 3%;
 }
 
-.cta-text
-{
-    color               : white;
-    font-family         : "Montserrat";
-    font-size           : 3rem;
-    font-weight         : 900;
-    line-height         : 1.5;
-    text-align          : center;
-}
-
-.cta-download-button
-{
-    margin-top          : 5%;
-    margin-right        : 5%;
-    margin-bottom       : 0%;
-}
-
-
-/* FEATURES SECTION */
-
-
-.features-text
-{
-    color               :#8f8f8f;
-    padding             : 5%;
-}
-
-.features-title
-{
-    font-size           : 1.5rem;
-    font-weight         : bold;
-}
-
-.icon
-{
-    color               : #ef8172;
-    margin-bottom       : 1rem;
-}
-
-.icon:hover
-{
-    color               : #ff4c68;
-}
-
-
-/* NAVBAR SECTION */
-
+/* CLASS SELECTORS */
 
 .navbar-brand
 {
-    font-family         : "Ubuntu";
-    font-size           : 2.5rem;
-    font-weight         : bold;
+    font-family      : "Ubuntu";
+    font-size        : 2.5rem;
+    font-weight      : bold;
 }
 
 .nav-item
 {
-    padding-left        : 1rem;
-    padding-right       : 1rem;
+    padding-left     : 1rem;
+    padding-right    : 1rem;
 }
 
 .nav-link
 {
-    font-family         : "Montserrat";
-    font-size           : 1.2rem;
-    font-weight         : 300;
+    font-size        : 1.2rem;
+    font-weight      : 300;
 }
 
+/*==================================*/
+/*          TITLE SECTION           */
+/*==================================*/
 
-/* PRESS SECTION */
+/* ID SELECTOR */
 
-
-.press-logo
+#title
 {
-    margin-bottom       : 50px;
-    margin-left         : 20px;
-    margin-right        : 20px;
-    margin-top          : 20px;
-    width               : 15%;
+    text-align: left;
 }
 
+/* CLASS SELECTORS */
 
-/* PRICING SECTION */
-
-
-.card-pricing
+.title-heading
 {
-    font-size           : 3rem;
-    line-height         : 1.5;
-    font-weight         : 900;
-}
-
-.card-text
-{
-    color               :#8f8f8f;
-}
-
-.card-title
-{
-    font-size           : 1.5rem;
-    font-weight         : 900;
-}
-
-.pricing-col
-{
-    padding-bottom      : 3%;
-    padding-left        : 2%;
-    padding-right       : 2%;
-    padding-top         : 3%;
-}
-
-.pricing-text
-{
-    color               :#8f8f8f;
-    font-weight         : 400;
-    line-height         : 3;
-}
-
-.pricing-title
-{
-    font-family         : "Montserrat";
-    font-size           : 3rem;
-    font-weight         : 900;
-    line-height         : 1.5;
-}
-
-
-/* TESTIMONIALS SECTION */
-
-
-.carousel-item
-{
-    padding-bottom      : 7%;
-    padding-left        : 15%;
-    padding-right       : 15%;
-    padding-top         : 7%;
-}
-
-.testimonials-img
-{
-    width               : 10%;
-    border-radius       : 100%;
-    margin              : 20px;
-}
-
-.testimonials-text
-{
-    font-family         : "Montserrat";
-    font-size           : 2.5rem;
-    font-weight         : 900;
-    line-height         : 1.5;
-}
-
-
-/* TITLE SECTION */
-
-.description
-{
-    color               : white;
-    font-family         : "Montserrat";
-    font-size           : 3.5rem;
-    font-weight         : 900;
-    line-height         : 1.5;
+    font-size        : 3.5rem;
+    font-weight      : 900;
+    line-height      : 1.5;
 }
 
 .download-button
 {
-    margin-top          : 5%;
-    margin-right        : 5%;
-    margin-bottom       : 0%;
+    margin-top       : 5%;
+    margin-right     : 5%;
+    margin-bottom    : 0%;
 }
 
 .iphone-mockup
 {
-    margin              : auto;
-    display             : block;
-    width               : 40%;
+    margin           : auto;
+    display          : block;
+    width            : 40%;
 }
 
 .iphone-mockup-container
 {
-    display         : flex;
-    justify-content : center;
+    display          : flex;
+    justify-content  : center;
 }
+
+/* RESPONSIVE */
 
 @media (max-width: 1285px)
 {
     .description
     {
-        color               : white;
-        font-family         : "Montserrat";
-        font-size           : 2.8rem;
-        font-weight         : 900;
-        line-height         : 1.5;
+        font-size    : 2.8rem;
+        font-weight  : 900;
+        line-height  : 1.5;
     }
 }
 
@@ -309,16 +123,14 @@ body
 {
     #title
     {
-        text-align: center;
+        text-align   : center;
     }
 
     .description
     {
-        color               : white;
-        font-family         : "Montserrat";
-        font-size           : 2rem;
-        font-weight         : 900;
-        line-height         : 1.5;
+        font-size    : 2rem;
+        font-weight  : 900;
+        line-height  : 1.5;
     }
 }
 
@@ -327,7 +139,204 @@ body
     .iphone-mockup
     {
 
-        padding-top         : 3%;
-        width               : 35%;
+        padding-top  : 3%;
+        width        : 35%;
     }
+}
+
+/*==================================*/
+/*          FEATURES SECTION        */
+/*==================================*/
+
+/* ID SELECTOR */
+
+#features
+{
+    position         : relative;
+    
+}
+
+/* CLASS SELECTORS */
+
+.features-text
+{
+    color            :#8f8f8f;
+    padding          : 5%;
+}
+
+.features-headings
+{
+    font-size        : 1.5rem;
+    font-weight      : bold;
+}
+
+.icon
+{
+    color            : #ef8172;
+    margin-bottom    : 1rem;
+}
+
+.icon:hover
+{
+    color            : #ff4c68;
+}
+
+/*==================================*/
+/*      TESTIMONIALS SECTION        */
+/*==================================*/
+
+/* ID SELECTOR */
+
+#testimonials
+{
+    background-color : #ef8172;
+    
+}
+
+/* CLASS SELECTORS */
+
+.carousel-item
+{
+    /* padding-bottom      : 7%;
+    padding-left        : 15%;
+    padding-right       : 15%;
+    padding-top         : 7%; */
+}
+
+.testimonials-img
+{
+    width            : 10%;
+    border-radius    : 100%;
+    margin           : 20px;
+}
+
+.testimonials-text
+{
+    font-size        : 2.5rem;
+    font-weight      : 900;
+    line-height      : 1.5;
+}
+
+/*==================================*/
+/*          PRESS SECTION           */
+/*==================================*/
+
+/* ID SELECTOR */
+
+#press
+{
+    background-color : #ef8172;
+    
+    padding-bottom   : 3%;
+}
+
+/* CLASS SELECTOR */
+
+.press-logo
+{
+    margin-bottom    : 50px;
+    margin-left      : 20px;
+    margin-right     : 20px;
+    margin-top       : 20px;
+    width            : 15%;
+}
+
+/*==================================*/
+/*          PRICING SECTION         */
+/*==================================*/
+
+/* ID SELECTOR */
+
+#pricing
+{
+    
+}
+
+/* CLASS SELECTORS */
+
+.card-pricing
+{
+    font-size        : 3rem;
+    line-height      : 1.5;
+    font-weight      : 900;
+}
+
+.card-text
+{
+    color            :#8f8f8f;
+}
+
+.card-title
+{
+    font-size        : 1.5rem;
+    font-weight      : 900;
+}
+
+.pricing-col
+{
+    padding-bottom   : 3%;
+    padding-left     : 2%;
+    padding-right    : 2%;
+    padding-top      : 3%;
+}
+
+.pricing-text
+{
+    color            :#8f8f8f;
+    font-weight      : 400;
+    line-height      : 3;
+}
+
+.pricing-title
+{
+    font-size        : 3rem;
+    font-weight      : 900;
+    line-height      : 1.5;
+}
+
+/*==================================*/
+/*      CALL TO ACTION SECTION      */
+/*==================================*/
+
+/* ID SELECTOR */
+
+#cta
+{
+    
+}
+
+/* CLASS SELECTORS */
+
+.cta-download-button
+{
+    margin-top       : 5%;
+    margin-right     : 5%;
+    margin-bottom    : 0%;
+}
+
+.cta-text
+{
+    font-size        : 3rem;
+    font-weight      : 900;
+    line-height      : 1.5;
+}
+
+.social-icon
+{
+    color            : #22252A;
+    margin-left      : 0.5rem;
+    margin-right     : 0.5rem;
+    margin-top       : 1rem;
+    margin-bottom    : 1rem;
+}
+
+/*==================================*/
+/*          FOOTER SECTION          */
+/*==================================*/
+
+/* ID SELECTOR */
+
+#footer
+{
+    color            : #8f8f8f;
 }
