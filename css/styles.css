@@ -99,12 +99,13 @@ body
 
 /* CTA SECTION */
 
-.cta-icon
+.social-icon
 {
     color               : #22252A;
+    margin-left       : 0.5rem;
+    margin-right       : 0.5rem;
+    margin-top       : 1rem;
     margin-bottom       : 1rem;
-    padding-left        : 1%;
-    padding-right       : 1%;
 }
 
 .cta-text
