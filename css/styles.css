@@ -13,6 +13,15 @@ body
 /*      ID SELECTORS       */
 /***************************/
 
+#cta
+{
+    background-color    : #ff4c68;
+    padding-bottom      : 7%;
+    padding-left        : 15%;
+    padding-right       : 15%;
+    padding-top         : 7%;
+    text-align: center;
+}
 
 #features
 {
@@ -23,6 +32,18 @@ body
     padding-right       : 15%;
     padding-top         : 7%;
     position            : relative;
+    text-align          : center;
+}
+
+#footer
+{
+    background-color    : white;
+    color               : #8f8f8f;
+    font-family         : "Montserrat";
+    padding-bottom      : 7%;
+    padding-left        : 15%;
+    padding-right       : 15%;
+    padding-top         : 7%;
     text-align          : center;
 }
 
@@ -76,6 +97,34 @@ body
 }
 
 
+/* CTA SECTION */
+
+.cta-icon
+{
+    color               : #22252A;
+    margin-bottom       : 1rem;
+    padding-left        : 1%;
+    padding-right       : 1%;
+}
+
+.cta-text
+{
+    color               : white;
+    font-family         : "Montserrat";
+    font-size           : 3rem;
+    font-weight         : 900;
+    line-height         : 1.5;
+    text-align          : center;
+}
+
+.cta-download-button
+{
+    margin-top          : 5%;
+    margin-right        : 5%;
+    margin-bottom       : 0%;
+}
+
+
 /* FEATURES SECTION */
 
 
@@ -94,7 +143,7 @@ body
 .icon
 {
     color               : #ef8172;
-margin-bottom           : 1rem;
+    margin-bottom       : 1rem;
 }
 
 .icon:hover
@@ -213,7 +262,6 @@ margin-bottom           : 1rem;
 
 
 /* TITLE SECTION */
-
 
 .description
 {
