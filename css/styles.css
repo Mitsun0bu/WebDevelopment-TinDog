@@ -9,6 +9,27 @@ body
     font-family      : "Montserrat";
 }
 
+h1
+{
+    font-size        : 3.5rem;
+    font-weight      : 900;
+    line-height      : 1.5;
+}
+
+h2
+{
+    font-size        : 3rem;
+    font-weight      : 900;
+    line-height      : 1.5;
+}
+
+h3
+{
+    font-size        : 1.5rem;
+    font-weight      : 900;
+    line-height      : 1.5;
+}
+
 /* CLASS SELECTORS */
 
 .blank-section
@@ -30,6 +51,19 @@ body
     padding-left     : 15%;
     padding-right    : 15%;
     padding-top      : 7%;
+}
+
+.download-button
+{
+    margin-top       : 5%;
+    margin-right     : 2%;
+    margin-left      : 2%;
+    margin-bottom    : 0%;
+}
+
+.small-text
+{
+    color            :#8f8f8f;
 }
 
 /*==================================*/
@@ -75,29 +109,15 @@ body
 
 #title
 {
-    text-align: left;
+    text-align       : left;
 }
 
 /* CLASS SELECTORS */
 
-.title-heading
-{
-    font-size        : 3.5rem;
-    font-weight      : 900;
-    line-height      : 1.5;
-}
-
-.download-button
-{
-    margin-top       : 5%;
-    margin-right     : 5%;
-    margin-bottom    : 0%;
-}
-
 .iphone-mockup
 {
-    margin           : auto;
     display          : block;
+    margin           : auto;
     width            : 40%;
 }
 
@@ -148,27 +168,7 @@ body
 /*          FEATURES SECTION        */
 /*==================================*/
 
-/* ID SELECTOR */
-
-#features
-{
-    position         : relative;
-    
-}
-
 /* CLASS SELECTORS */
-
-.features-text
-{
-    color            :#8f8f8f;
-    padding          : 5%;
-}
-
-.features-headings
-{
-    font-size        : 1.5rem;
-    font-weight      : bold;
-}
 
 .icon
 {
@@ -190,17 +190,14 @@ body
 #testimonials
 {
     background-color : #ef8172;
-    
 }
 
 /* CLASS SELECTORS */
 
 .carousel-item
 {
-    /* padding-bottom      : 7%;
-    padding-left        : 15%;
-    padding-right       : 15%;
-    padding-top         : 7%; */
+    padding-left     : 15%;
+    padding-right    : 15%;
 }
 
 .testimonials-img
@@ -210,34 +207,24 @@ body
     margin           : 20px;
 }
 
-.testimonials-text
-{
-    font-size        : 2.5rem;
-    font-weight      : 900;
-    line-height      : 1.5;
-}
-
 /*==================================*/
 /*          PRESS SECTION           */
 /*==================================*/
 
 /* ID SELECTOR */
 
-#press
+#press .container-fluid
 {
     background-color : #ef8172;
-    
-    padding-bottom   : 3%;
+    padding-top      : 0;
 }
 
 /* CLASS SELECTOR */
 
 .press-logo
 {
-    margin-bottom    : 50px;
     margin-left      : 20px;
     margin-right     : 20px;
-    margin-top       : 20px;
     width            : 15%;
 }
 
@@ -245,32 +232,7 @@ body
 /*          PRICING SECTION         */
 /*==================================*/
 
-/* ID SELECTOR */
-
-#pricing
-{
-    
-}
-
 /* CLASS SELECTORS */
-
-.card-pricing
-{
-    font-size        : 3rem;
-    line-height      : 1.5;
-    font-weight      : 900;
-}
-
-.card-text
-{
-    color            :#8f8f8f;
-}
-
-.card-title
-{
-    font-size        : 1.5rem;
-    font-weight      : 900;
-}
 
 .pricing-col
 {
@@ -280,46 +242,11 @@ body
     padding-top      : 3%;
 }
 
-.pricing-text
-{
-    color            :#8f8f8f;
-    font-weight      : 400;
-    line-height      : 3;
-}
-
-.pricing-title
-{
-    font-size        : 3rem;
-    font-weight      : 900;
-    line-height      : 1.5;
-}
-
 /*==================================*/
 /*      CALL TO ACTION SECTION      */
 /*==================================*/
 
-/* ID SELECTOR */
-
-#cta
-{
-    
-}
-
 /* CLASS SELECTORS */
-
-.cta-download-button
-{
-    margin-top       : 5%;
-    margin-right     : 5%;
-    margin-bottom    : 0%;
-}
-
-.cta-text
-{
-    font-size        : 3rem;
-    font-weight      : 900;
-    line-height      : 1.5;
-}
 
 .social-icon
 {
@@ -328,15 +255,4 @@ body
     margin-right     : 0.5rem;
     margin-top       : 1rem;
     margin-bottom    : 1rem;
-}
-
-/*==================================*/
-/*          FOOTER SECTION          */
-/*==================================*/
-
-/* ID SELECTOR */
-
-#footer
-{
-    color            : #8f8f8f;
 }
